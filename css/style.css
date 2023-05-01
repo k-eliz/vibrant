@@ -165,6 +165,49 @@ body {
   align-items: center;
   gap: 10px;
 }
+
+.app {
+  padding: 100px 50px;
+}
+
+.app__inner {
+  background: url(../images/app_back.png) center no-repeat;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 90px;
+  gap: 15px;
+}
+
+.app__title {
+  max-width: 385px;
+  font-weight: 400;
+  font-size: 46px;
+  color: #ffffff;
+}
+
+.app__btn {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  color: #ffffff;
+  background: #965cff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+}
+
+.app__text {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+}
+
 .footer {
   background-color: black;
 }
