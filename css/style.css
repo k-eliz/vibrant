@@ -153,6 +153,18 @@ body {
   color: #252b3b;
 }
 
+.summary__info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.summary__info-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
 .footer {
   background-color: black;
 }
