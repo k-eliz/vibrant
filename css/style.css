@@ -122,6 +122,37 @@ body {
   padding: 40px 280px;
   align-items: center;
 }
+
+.summary__inner {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 100px 0 100px;
+}
+
+.summary__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.summary__info-title {
+  font-weight: 400;
+  font-size: 32px;
+  color: #252b3b;
+  max-width: 370px;
+}
+
+.summary__info-text {
+  max-width: 480px;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.18px;
+  color: #252b3b;
+}
+
 .footer {
   background-color: black;
 }
